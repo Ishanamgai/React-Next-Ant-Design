@@ -32,7 +32,7 @@ const LossCard = () => {
         >
           Limit Order
         </Button>
-        <Button
+        {/* <Button
           onClick={() => {
             setOrder("market");
           }}
@@ -41,7 +41,7 @@ const LossCard = () => {
           }`}
         >
           Market Order
-        </Button>
+        </Button> */}
       </div>
       <h6 className="gx-mt-1">
         Will execute at actual rates when the price meets Stop Loss conditions
