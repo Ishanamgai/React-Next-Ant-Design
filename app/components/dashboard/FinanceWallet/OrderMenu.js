@@ -11,9 +11,9 @@ const OrderMenu = () => {
             <Option value="coin">Coin</Option>
           </Select>
         </div>
-        <Button className="gx-ml-1">
+        {/* <Button className="gx-ml-1">
           <SearchOutlined />
-        </Button>
+        </Button> */}
       </div>
       <div style={{ width: "150px" }}>
         <Select defaultValue="coin" style={{ width: "140px" }}>
