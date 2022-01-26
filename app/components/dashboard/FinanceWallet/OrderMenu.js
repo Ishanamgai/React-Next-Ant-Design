@@ -23,7 +23,7 @@ const OrderMenu = () => {
       <div style={{ width: "72px" }}>
         <Button>Units</Button>
       </div>
-      <div style={{ width: "250px" }} className="gx-flex-row">
+      {/* <div style={{ width: "250px" }} className="gx-flex-row">
         <div>
           <Select defaultValue="coin" style={{ width: "90px" }}>
             <Option value="coin">Status</Option>
@@ -32,7 +32,7 @@ const OrderMenu = () => {
         <Button className="gx-ml-2">
           <SyncOutlined />
         </Button>
-      </div>
+      </div> */}
       <div style={{ width: "90px" }}>
         <Select defaultValue="coin">
           <Option value="coin">Profit</Option>
