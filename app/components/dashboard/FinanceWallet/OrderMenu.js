@@ -20,9 +20,9 @@ const OrderMenu = () => {
           <Option value="coin">Creation Date</Option>
         </Select>
       </div>
-      {/* <div style={{ width: "72px" }}>
+      <div style={{ width: "72px" }}>
         <Button>Units</Button>
-      </div> */}
+      </div>
       <div style={{ width: "250px" }} className="gx-flex-row">
         <div>
           <Select defaultValue="coin" style={{ width: "90px" }}>
