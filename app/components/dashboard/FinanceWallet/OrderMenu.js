@@ -21,7 +21,7 @@ const OrderMenu = () => {
         </Select>
       </div>
       <div style={{ width: "72px" }}>
-        {/* <Button>Units</Button> */}
+        <Button>Units</Button>
       </div>
       <div style={{ width: "250px" }} className="gx-flex-row">
         <div>
