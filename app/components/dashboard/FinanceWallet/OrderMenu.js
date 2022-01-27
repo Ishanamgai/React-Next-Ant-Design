@@ -7,9 +7,9 @@ const OrderMenu = () => {
     <div className="gx-d-none gx-d-lg-flex gx-justify-content-between">
       <div style={{ width: "140px" }} className="gx-flex-row">
         <div>
-          <Select defaultValue="coin" style={{ width: "80px" }}>
+          {/* <Select defaultValue="coin" style={{ width: "80px" }}>
             <Option value="coin">Coin</Option>
-          </Select>
+          </Select> */}
         </div>
         <Button className="gx-ml-1">
           <SearchOutlined />
