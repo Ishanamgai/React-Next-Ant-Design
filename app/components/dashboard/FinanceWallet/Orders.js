@@ -29,10 +29,10 @@ const StatusLoss = () => (
         style={{ height: "10px", width: "50px" }}
         className="gx-bg-red"
       ></div>
-      {/* <div
+      <div
         style={{ height: "20px", width: "2px" }}
         className="gx-bg-dark"
-      ></div> */}
+      ></div>
       <div>
         <div
           style={{ height: "10px", width: "140px" }}
