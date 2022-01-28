@@ -7,10 +7,10 @@ const UserInfo = () => {
 
   const userMenuOptions = (
     <ul className="gx-user-popover">
-      <li>My Account</li>
+      {/* <li>My Account</li>
       <li>Connections</li>
       <li onClick={() => signOut()}>Logout
-      </li>
+      </li> */}
     </ul>
   );
 
