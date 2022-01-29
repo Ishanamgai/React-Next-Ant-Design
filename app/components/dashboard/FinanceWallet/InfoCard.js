@@ -27,7 +27,7 @@ const InfoCard = () => {
           50%
         </Button>
       </div>
-      <div className="gx-flex-row gx-mt-5">
+      {/* <div className="gx-flex-row gx-mt-5">
         <h5>Bought price</h5>
       </div>
       <Input addonAfter="USDT" defaultValue="10874.72" />
@@ -38,7 +38,7 @@ const InfoCard = () => {
       </div>
       <div className="gx-flex-row gx-mt-5">
         <h5>Total</h5>
-      </div>
+      </div> */}
       <Input addonAfter="USDT" defaultValue="2718.68000000" />
     </Card>
   );
