@@ -11,7 +11,7 @@ const InfoCard = () => {
       <Input addonAfter="BTC" defaultValue="0.250000" />
       <h6 style={{ marginTop: 20 }}>Size from available amount</h6>
       <div className="gx-flex-row">
-        <Button onClick={() => setPercent(100)} className={`gx-flex-row gx-justify-content-center gx-px-3 gx-mx-0  gx-w-20 ${percent === 100 ? 'gx-bg-aqua gx-text-white' : 'gx-bg-grey'}`}>
+        {/* <Button onClick={() => setPercent(100)} className={`gx-flex-row gx-justify-content-center gx-px-3 gx-mx-0  gx-w-20 ${percent === 100 ? 'gx-bg-aqua gx-text-white' : 'gx-bg-grey'}`}>
           100%
         </Button>
         <Button onClick={() => setPercent(5)} className={`gx-flex-row gx-justify-content-center gx-px-3 gx-mx-0  gx-w-20 ${percent === 5 ? 'gx-bg-aqua gx-text-white' : 'gx-bg-grey'}`}>
@@ -25,7 +25,7 @@ const InfoCard = () => {
         </Button>
         <Button onClick={() => setPercent(50)} className={`gx-flex-row gx-justify-content-center gx-px-3 gx-mx-0  gx-w-20 ${percent === 50 ? 'gx-bg-aqua gx-text-white' : 'gx-bg-grey'}`}>
           50%
-        </Button>
+        </Button> */}
       </div>
       <div className="gx-flex-row gx-mt-5">
         <h5>Bought price</h5>
