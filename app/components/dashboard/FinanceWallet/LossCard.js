@@ -53,7 +53,7 @@ const LossCard = () => {
         className="gx-mt-4"
       />
       <div className="gx-flex-row gx-mt-4">
-        <div className="gx-w-66">
+        {/* <div className="gx-w-66">
           <Slider defaultValue={30} reverse={true} />
         </div>
         <div className="gx-w-33">
@@ -62,7 +62,7 @@ const LossCard = () => {
             defaultValue="-5.00"
             className="gx-text-center"
           />
-        </div>
+        </div> */}
       </div>
       <h6 className="gx-mt-3">Stop Loss timeout</h6>
       <div className="gx-flex-row">
