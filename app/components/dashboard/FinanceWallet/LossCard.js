@@ -67,7 +67,7 @@ const LossCard = () => {
       <h6 className="gx-mt-3">Stop Loss timeout</h6>
       <div className="gx-flex-row">
         <div className="gx-flex-row">
-          <Button
+          {/* <Button
             onClick={() => setOn("off")}
             className={`gx-mx-0 gx-px-5 ${
               on === "off" ? "gx-bg-aqua gx-text-white" : "gx-bg-grey"
@@ -82,7 +82,7 @@ const LossCard = () => {
             }`}
           >
             ON
-          </Button>
+          </Button> */}
         </div>
         <Input
           addonAfter="Sec"
